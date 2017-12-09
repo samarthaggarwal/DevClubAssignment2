@@ -8,10 +8,14 @@
           border-collapse: collapse;
           padding: 30 px;
       }
+      table.uncol{
+          border-collapse: separate;
+      }
     </style>
   </head>
 
   <body>
+  <div class="a">
     <table style="width:75%" align=center>
       <tr>
         <td>left</td>
@@ -117,8 +121,10 @@
       </tr>
 
     </table>
+  </div>
 
-    <table style="width:80%" align=center>
+  <div class="b">
+    <table class="uncol" style="width:80%" align=center>
       <tr bgcolor="#55FF55">
         <td colspan="3" height=50px></td>
       </tr>
@@ -133,6 +139,7 @@
         <td colspan="3" height=35px></td>
       </tr>
     </table>
+  </div>
 
   </body>
 </html>
