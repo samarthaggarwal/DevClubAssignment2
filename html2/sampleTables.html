@@ -4,7 +4,7 @@
     <title>Tables in html</title>
     <style>
       table,th,td{
-          border: 1px solid black;
+          border: 2px solid black;
           border-collapse: collapse;
           padding: 30 px;
       }
@@ -86,32 +86,52 @@
         <td height=25px></td>
         <td></td>
         <td></td>
-      </tr>
 
+      </tr>
       <tr>
-        <td rowspan="4" height=100px></td>
+        <td height=100px></td>
+        <td>
+          <table style="width:100%">
+            <tr>
+              <td height=25px></td>
+            </tr>
+            <tr>
+              <td height=25px></td>
+            </tr>
+            <tr>
+              <td height=25px></td>
+            </tr>
+            <tr>
+              <td height=25px></td>
+            </tr>
+          </table>
+        </td>
         <td></td>
-        <td rowspan="4"></td>
-      </tr>
 
-      <tr>
-        <td></td>
       </tr>
-
-      <tr>
-        <td></td>
-      </tr>
-
-      <tr>
-        <td></td>
-      </tr>
-
       <tr>
         <td height=25px></td>
         <td></td>
         <td></td>
+
       </tr>
 
+    </table>
+
+    <table style="width:80%" align=center>
+      <tr bgcolor="#55FF55">
+        <td colspan="3" height=50px></td>
+      </tr>
+      <tr>
+        <td height=250px></td>
+        <td width="50%">
+          <img src="frog.jpg" alt="Frog in a forest" height="600" width="600">
+        </td>
+        <td></td>
+      </tr>
+      <tr bgcolor="#0000FF">
+        <td colspan="3" height=35px></td>
+      </tr>
     </table>
 
   </body>
