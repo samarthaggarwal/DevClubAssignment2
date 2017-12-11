@@ -1,4 +1,8 @@
 input{
-  width: 50px;
   margin: auto;
+}
+
+.form{
+  margin: auto;
+  align=center;
 }
